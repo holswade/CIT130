@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="yay">
+  <ClassDiagramComponents>
+    <Class name="Component" package="" visibility="public" xPosition="93.0" yPosition="57.0">
+      <Fields>
+        <Field name="year" type="int" visibility="private"/>
+        <Field name="title" type="string" visibility="private"/>
+        <Field name="description" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Computer components" package="" visibility="public" xPosition="135.0" yPosition="337.0">
+      <Fields>
+        <Field name="year" type="int" visibility="private"/>
+        <Field name="price" type="double" visibility="private"/>
+        <Field name="model" type="string" visibility="private"/>
+        <Field name="title" type="string" visibility="private"/>
+        <Field name="description" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="HumanInterestComponents" package="" visibility="public" xPosition="431.0" yPosition="229.0">
+      <Fields>
+        <Field name="year" type="int" visibility="private"/>
+        <Field name="description" type="int" visibility="private"/>
+        <Field name="title" type="string" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
