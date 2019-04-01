@@ -69,16 +69,17 @@ public class AgentFactory {
         
         // what these lines are doing is that they are generating the agents
         // into two seperate lists called getCoverUpheld noUpheldCover 
-        int number = 0;
-        while(number < 10000){
+        
+       
             if  (f.getCoverUpheld()){
             upheldCover.add(f);
                 }else{
               noupheldCover.add(f);
                 }
-           number++;
-        }
-    }
+
+        
+   }
+
     
     
     // 
@@ -125,13 +126,15 @@ public class AgentFactory {
    
     }
       public static void main(String[] args) {
-          
-          
-          list(simulator(genAgent(), getrisk() ) );
+          int number=0;
+          while(number<10000){
+               list(simulator(genAgent(), getrisk() ) );
+               number++;
+          }
           
          computeListCalcs(upheldCover);
-          System.out.println("");
+         System.out.println("");
          computeListCalcs(noupheldCover);
           
-    }   
+   }   
 }
